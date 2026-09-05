@@ -20,7 +20,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${nunitoSans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-nunito-sans">
+      <body className="min-h-full flex flex-col font-nunito-sans bg-[#F9F9F9]">
         <Header />
         <main className="grow">{children}</main>
         <Footer />
