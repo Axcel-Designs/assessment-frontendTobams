@@ -14,7 +14,7 @@ export default function FooterFinal() {
   ];
   return (
     <footer className="font-light">
-        {/* footer top */}
+      {/* footer top */}
       <section className="flex flex-wrap p-6 xl:py-10 xl:px-16 items gap-6 xl:gap-2.5 items-center border-b-2 border-b-[#C4C4C4] bg-[#1D0617] text-white text-sm">
         <div className="grow grid">
           <p>Ready to be a part of something extraordinary?</p>
@@ -24,21 +24,18 @@ export default function FooterFinal() {
           <Button title="Get In Touch" />
         </div>
       </section>
-      
-      <section className="grid p-6 xl:py-8 xl:px-16 items gap-6 xl:gap-5 items-center bg-[#11040E] text-white">
+
+      <section className="grid p-6 xl:py-10 xl:px-16 items gap-6 xl:gap-5 items-center bg-[#11040E] text-white">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:py-5 gap-10">
-          <div className="grid gap-2.5">
-            <div>
-              <Image src={logo} alt="logo" placeholder="blur" width={165.71} />
-            </div>
-            <div>
-              <p className="text-sm">
-                Tobams Group is an innovative consultancy firm reshaping the
-                future of tech talent development in Africa, specializing in
-                talent acquisition, internships, and skill development with a
-                global perspective.
-              </p>
-            </div>
+          <div className="flex flex-col gap-6">
+            <Image src={logo} alt="logo" placeholder="blur" height={72.61} />
+            <p className="text-sm">
+              Tobams Group is an innovative consultancy firm reshaping the
+              future of tech talent development in Africa, specializing in
+              talent acquisition, internships, and skill development with a
+              global perspective.
+            </p>
+
             <ul className="flex gap-6">
               {socialLinks.map((social) => (
                 <li
@@ -53,7 +50,7 @@ export default function FooterFinal() {
 
           <div className="flex flex-col gap-4">
             <h3 className="font-bold">What We Do</h3>
-            <ul className="grid gap-4 text-sm">
+            <ul className="grid gap-3 text-sm">
               {WhatWeDoData.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
@@ -62,7 +59,7 @@ export default function FooterFinal() {
 
           <div className="flex flex-col gap-4">
             <h3 className="font-bold">Company</h3>
-            <ul className="grid gap-4 text-sm">
+            <ul className="grid gap-3 text-sm">
               {companyData.map((item, index) => (
                 <li key={index}>{item.title}</li>
               ))}
@@ -70,13 +67,14 @@ export default function FooterFinal() {
           </div>
           <div className="flex flex-col gap-4">
             <h3 className="font-bold">Solutions</h3>
-            <ul className="grid gap-4 text-sm">
+            <ul className="grid gap-3 text-sm">
               {solutionsData.map((item, index) => (
                 <li key={index}>{item.title}</li>
               ))}
             </ul>
           </div>
         </div>
+
         <div className="py-5">
           <div className="bg-[#FFFFFF]/6 flex flex-col xl:flex xl:flex-row gap-6 p-4 xl:p-6 rounded-lg text-sm">
             <div className="grid gap-2.5">

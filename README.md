@@ -338,27 +338,27 @@ Therefore:
 
 | Requirement                     | Status |
 | ------------------------------- | :----: |
-| Next.js                         |    ✅   |
-| App Router                      |    ✅   |
-| TypeScript                      |    ✅   |
-| Tailwind CSS                    |    ✅   |
-| No additional CSS framework     |    ✅   |
-| Responsive — 425px              |    ✅   |
-| Responsive — 768px              |    ✅   |
-| Responsive — 1280px+            |    ✅   |
-| Reusable components             |    ✅   |
-| Semantic HTML                   |    ✅   |
-| Accessible interactive elements |    ✅   |
-| Meaningful image alt text       |    ✅   |
-| `next/image`                    |    ✅   |
-| `next/font`                     |    ✅   |
-| Public GitHub repository        |    ✅   |
-| Vercel deployment               |    ✅   |
-| Figma reference                 |    ✅   |
-| AI usage disclosed              |    ✅   |
-| Setup instructions              |    ✅   |
-| Design decisions documented     |    ✅   |
-| Known limitations documented    |    ✅   |
+| Next.js                         |    ✅  |
+| App Router                      |    ✅  |
+| TypeScript                      |    ✅  |
+| Tailwind CSS                    |    ✅  |
+| No additional CSS framework     |    ✅  |
+| Responsive — 425px              |    ✅  |
+| Responsive — 768px              |    ✅  |
+| Responsive — 1280px+            |    ✅  |
+| Reusable components             |    ✅  |
+| Semantic HTML                   |    ✅  |
+| Accessible interactive elements |    ✅  |
+| Meaningful image alt text       |    ✅  |
+| `next/image`                    |    ✅  |
+| `next/font`                     |    ✅  |
+| Public GitHub repository        |    ✅  |
+| Vercel deployment               |    ✅  |
+| Figma reference                 |    ✅  |
+| AI usage disclosed              |    ✅  |
+| Setup instructions              |    ✅  |
+| Design decisions documented     |    ✅  |
+| Known limitations documented    |    ✅  |
 
 ---
 
