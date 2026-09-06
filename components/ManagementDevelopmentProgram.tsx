@@ -12,7 +12,7 @@ const MDPList = [
 export default function ManagementDevelopmentProgram() {
   return (
     <section className='py-10 xl:p-16 text-[#151515]'>
-      <div className="bg-[#2C0922] xl:h-179.75 p-10 rounded-[20px] flex flex-col xl:flex-row justify-between gap-5 xl:gap-12 text-[#F5F5F5]">
+      <div className="max-lg:mx-6 bg-[#2C0922] xl:h-179.75 px-5 py-4 xl:p-10 rounded-[20px] flex flex-col xl:flex-row justify-between gap-5 xl:gap-12 text-[#F5F5F5]">
         <h2 className='text-xl xl:hidden block'>Management Development Program</h2>
         <div className="h-159.75 shrink-0 w-auto">
           <Image src={assetImg.managementProgram}
@@ -46,7 +46,6 @@ export default function ManagementDevelopmentProgram() {
             </ul>
           </div>
         </article>
-
       </div>
     </section>);
 }

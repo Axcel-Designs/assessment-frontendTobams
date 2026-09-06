@@ -13,7 +13,7 @@ export default function FooterFinal() {
     { icon: <FaXTwitter />, id: "twitter" },
   ];
   return (
-    <footer>
+    <footer className="font-light">
         {/* footer top */}
       <section className="flex flex-wrap p-6 xl:py-10 xl:px-16 items gap-6 xl:gap-2.5 items-center border-b-2 border-b-[#C4C4C4] bg-[#1D0617] text-white text-sm">
         <div className="grow grid">
@@ -78,8 +78,8 @@ export default function FooterFinal() {
           </div>
         </div>
         <div className="py-5">
-          <div className="bg-[#FFFFFF]/6 flex flex-col xl:flex xl:flex-row gap-6 p-6 rounded-lg text-sm">
-            <div>
+          <div className="bg-[#FFFFFF]/6 flex flex-col xl:flex xl:flex-row gap-6 p-4 xl:p-6 rounded-lg text-sm">
+            <div className="grid gap-2.5">
               <h3 className="font-bold mb-2 text-md">Registerd Offices</h3>
               <p className="text-[#EF4353]">United Kingdom</p>
               <p>
@@ -87,7 +87,7 @@ export default function FooterFinal() {
                 Street, Romford, Essex, United Kingdom, RM1 4QA
               </p>
             </div>
-            <div>
+            <div className="grid gap-2.5">
               <h3 className="font-bold invisible mb-2 text-md">What We Do</h3>
               <p className="text-[#EF4353]">Nigeria</p>
               <p>
@@ -111,8 +111,8 @@ export default function FooterFinal() {
             </div>
           </div>
         </div>
-        <hr className="text-[#DDD0DA]" />
-        <div className="flex flex-wrap justify-between text-sm">
+        <hr className="text-[#DDD0DA]/10" />
+        <div className="flex flex-wrap justify-around xl:justify-between text-sm gap-3 max-lg:text-center">
           <div>
             <p>
               Copyright ⓒ Tobams Group, {new Date().getFullYear()}. All rights

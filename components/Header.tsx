@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <>
       <header className="w-full h-43.25 max-lg:h-19 shadow-md z-50 bg-white flex flex-col justify-center overflow-x-hidden">
-        <section className="flex justify-between items-center w-full lg:px-16 px-4 lg:py-6 h-26 border-b border-b-[#DDD0DA]">
+        <section className="flex justify-between items-center w-full lg:px-16 px-6 py-4.5 lg:py-6 h-26 border-b border-b-[#DDD0DA]">
           <div>
             <Image src={logo} alt="tobams logo" placeholder="blur" width={165.71} height={64}/>
           </div>
@@ -22,7 +22,7 @@ export default function Header() {
             <MenuButtons />
           </div>
           <div
-            className="max-xl:block hidden bg-[#151515] text-white rounded-sm p-1 cursor-pointer text-xl"
+            className="max-xl:block hidden bg-[#151515] text-white rounded-sm p-1 cursor-pointer text-lg"
             onClick={() => ShowNav()}
           >
             {!isNav ? <FaBars /> : <FaTimes />}
