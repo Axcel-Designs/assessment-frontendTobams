@@ -8,8 +8,8 @@ const nunito=Nunito({
 })
 export default function Testimonials() {
   return (
-    <section className='py-6 xl:py-16 bg-[#C4C4C4]/30 text-[#151515] grid xl:gap-10 gap-6'>
-      <div className="px-6 xl:px-16 grid gap-6 xl:gap-10.25">
+    <section className='p-6 xl:px-16 py-6 xl:py-16 bg-[#C4C4C4]/30 text-[#151515] grid xl:gap-10 gap-6'>
+      <div className=" grid gap-6 xl:gap-10.25">
         <h2 className={nunito.className + " text-center font-bold text-xl xl:text-[40px]"}>Testimonial</h2>
         <article className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5.75">
           {testimonialData.map((testimonial, i) => (
