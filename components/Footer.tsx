@@ -110,21 +110,18 @@ export default function FooterFinal() {
           </div>
         </div>
         <hr className="text-[#DDD0DA]/10" />
-        <div className="flex flex-wrap justify-around xl:justify-between text-sm gap-3 max-lg:text-center">
-          <div>
+        <div className="flex flex-wrap max-lg:flex-col justify-around xl:justify-between text-sm gap-3 max-lg:text-center">
+          <div className="max-lg:order-1">
             <p>
               Copyright ⓒ Tobams Group, {new Date().getFullYear()}. All rights
               reserved.
             </p>
           </div>
-          <div className="order-first xl:order-0 flex flex-wrap xl:gap-10 gap-6 justify-around">
-            {["Privacy Policy", "Terms of Use", "Cookie Policy"].map(
+          <div className=" flex flex-wrap xl:gap-10 gap-6 justify-around">
+            {["Privacy Policy", "Terms and conditions", "Cookie Policy"].map(
               (link, i) => (
-                <p key={i} className="underline">
-                  {link}
-                </p>
-              ),
-            )}
+                <p key={i} className="underline">{link}</p>
+              ),)}
           </div>
         </div>
       </section>
