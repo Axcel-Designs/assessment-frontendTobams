@@ -12,7 +12,7 @@ const consultList = [
 
 export default function Consultant() {
   return (
-    <section className='xl:py-10 text-[#151515]'>
+    <section className='py-10 text-[#151515]'>
       <div className="bg-[#571244]/10 xl:h-160.5 py-12 px-16 max-lg:p-6 rounded-[5px] flex flex-col justify-between gap-8 text-[#F5F5F5]">
         <div className="grid gap-5 xl:gap-5">
           <div className="grid gap-3">
