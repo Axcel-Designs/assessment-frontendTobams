@@ -13,7 +13,7 @@ export default function Testimonials() {
         <h2 className={nunito.className + " text-center font-bold text-xl xl:text-[40px]"}>Testimonial</h2>
         <article className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5.75">
           {testimonialData.map((testimonial, i) => (
-            <div key={i} className="p-5 px-6 rounded-2xl gap-4 xl:gap-5 grid my-6 border-l-2 border-[#EF4353] bg-white w-full">
+            <div key={i} className={`${i>0 && 'max-lg:hidden'} ${nunito.className} p-5 px-6 rounded-2xl gap-4 xl:gap-5 grid my-6 border-l-2 border-[#EF4353] bg-white w-full`}>
               <div className="flex items-center gap-5.25">
                 <Image src={testimonial.img} alt={testimonial.name} className="w-11 h-11 rounded-full" />
                 <div>
