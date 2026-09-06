@@ -22,12 +22,12 @@ export const testimonialData = [
     message:
       "Tobams Group has been instrumental in our talent acquisition journey. Their Tech Talent Solution service consistently connects us with the right professionals. Reliable and straightforward.",
   },
-  {
-    img: "",
-    name: "",
-    title: "",
-    message: "",
-  },
+  // {
+  //   img: "",
+  //   name: "",
+  //   title: "",
+  //   message: "",
+  // },
 ];
 
 export const trainingData = [
@@ -46,7 +46,7 @@ export const trainingData = [
   {
     img: assetImg.pit,
     title: "Personalised Individual Training",
-    desc: "Begin a journey of lifelong learning and professional development with Tobams Group's diverse range of training programs for individuals. From technical skills mastery to soft skills enhancement, our courses cover a wide spectrum of topics to meet the evolving needs of today's professionals.  ",
+    desc: "Begin a journey of lifelong learning and professional development with Tobams Group's diverse range of training programs for individuals. From technical skills mastery to soft skills enhancement, our courses cover a wide spectrum of topics to meet the evolving needs of today's professionals.",
     lists: [
       "Leadership Development",
       "Soft Skills Development",
