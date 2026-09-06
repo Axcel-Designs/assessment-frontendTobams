@@ -14,7 +14,7 @@ export default function ManagementDevelopmentProgram() {
     <section className='py-10 xl:p-16 text-[#151515]'>
       <div className="max-lg:mx-6 bg-[#2C0922] h-fit xl:h-179.75 px-5 py-4 xl:p-10 rounded-[20px] flex flex-col lg:flex-row justify-between gap-5 xl:gap-12 text-[#F5F5F5]">
         <h2 className='text-xl lg:hidden block'>Management Development Program</h2>
-        <div className="h-159.75 shrink-0 w-auto">
+        <div className="max-h-159.75 shrink-0 w-auto">
           <Image src={assetImg.managementProgram}
             alt="Management Development Program"
             placeholder="blur"
