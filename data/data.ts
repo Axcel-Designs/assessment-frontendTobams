@@ -92,7 +92,7 @@ export const companyData = [
   { title: "FAQs", link: "/faqs" },
   {
     title: "Testimonials",
-    link: "/testimonials                                                                                         ",
+    link: "/testimonials",
   },
 ];
 
