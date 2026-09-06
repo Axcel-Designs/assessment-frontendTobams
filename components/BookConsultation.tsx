@@ -7,7 +7,7 @@ export default function BookConsultation() {
 
     return (
       <>
-        <section className="mx-auto bg-[#571244] text-white px-16 py-8 gap-8 rounded-lg flex flex-col items-center justify-around text-center xl:w-283.5 xl:h-51">
+        <section className="mx-auto max-lg:mx-6 bg-[#571244] text-white px-16 py-8 max-lg:px-6 gap-8 rounded-lg flex flex-col items-center justify-around text-center xl:w-283.5 xl:h-51">
           <p className={`font-semibold text-xl ${nunito.className}`}>Want to accelerate professional growth and development at your organisation?
             <br />
             See how we can help.
