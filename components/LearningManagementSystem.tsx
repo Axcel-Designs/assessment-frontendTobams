@@ -14,7 +14,7 @@ export default function LearningManagementSystem() {
   return (
     <section className="py-10 text-[#151515]">
       <div className="bg-[#571244]/10 flex flex-col xl:flex-row xl:h-166 p-6 gap-6 lg:gap-20 xl:px-12 xl:py-16 items-center justify-center">
-        <h2 className={`${nunito.className} text-[#571244] font-semibold text-xl block xl:hidden text-[20px]`}>Learning Management System</h2>
+        <h2 className={`${nunito.className} text-[#571244] font-semibold text-xl block xl:hidden text-[20px] md:text-normal`}>Learning Management System</h2>
         <div className="relative w-81.27 h-81.75 xl:w-auto xl:h-full aspect-square rounded-full overflow-hidden shrink-0">
           <Image
             src={assetImg.lms}
