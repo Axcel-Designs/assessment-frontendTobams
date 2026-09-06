@@ -7,9 +7,9 @@ export default function Training() {
     <section className='grid gap-6 xl:gap-30 xl:p-16 text-[#151515]'>
       {trainingData.map((training, i) => (
         <div key={i} className={`flex flex-col xl:flex-row xl:max-h-101.25 p-6 xl:p-0 gap-6 xl:gap-16 rounded-lg items-center justify-center ${i % 2 === 1 ? 'xl:flex-row-reverse ' : ''}`}>
-          <h2 className='text-[#151515] text-[20px] md:text-normal block xl:hidden'>{training.title}</h2>
+          <h2 className='text-[#151515] text-[20px] md:text-normal block xl:hidden font-semibold'>{training.title}</h2>
           <div className="order-3 xl:gap-5.25 xl:order-0 grid xl:max-h-101.25">
-            <h2 className='text-[#151515] text-[40px] xl:block hidden'>{training.title}</h2>
+            <h2 className='text-[#151515] text-[40px] xl:block hidden font-semibold'>{training.title}</h2>
             <div className='grid xl:gap-4.75 gap-5.25'>
               <p className='text-lg text-[#696969]'>{training.desc}</p>
               <ul className=' flex flex-wrap 2xl:gap-2.5'>
