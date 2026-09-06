@@ -39,7 +39,7 @@ export default function ManagementDevelopmentProgram() {
           </div>
           <div className='grid'>
             <ul className='gap-6.25 flex flex-wrap px-4 py-2'>
-              {MDPList.map((benefit, i) => <li key={i} className='flex items-center gap-2 bg-[#8F6182] px-2 py-1 rounded-lg w-full h-10'>
+              {MDPList.map((benefit, i) => <li key={i} className='flex items-center gap-2 bg-[#8F6182] px-2 py-1 rounded-lg w-full min-h-10'>
                 <BsLightningChargeFill />
                 {benefit}
               </li>)}
