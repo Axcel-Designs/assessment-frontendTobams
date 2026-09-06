@@ -15,10 +15,10 @@ export default function FooterFinal() {
   return (
     <footer className="font-light">
       {/* footer top */}
-      <section className="flex flex-wrap p-6 xl:py-10 xl:px-16 items gap-6 xl:gap-2.5 items-center border-b-2 border-b-[#C4C4C4] bg-[#1D0617] text-white text-sm">
-        <div className="grow grid">
+      <section className="flex flex-col lg:flex-row justify-between p-6 lg:py-10 lg:px-16 items gap-6 lg:gap-2.5 border-b-2 border-b-[#C4C4C4] bg-[#1D0617] text-white text-sm">
+        <div className="grow grid gap-4 lg:gap-2.5">
           <p>Ready to be a part of something extraordinary?</p>
-          <b>Let’s work together to create a difference</b>
+          <b className="font-semibold lg:text-2xl">Let’s work together to create a difference</b>
         </div>
         <div>
           <Button title="Get In Touch" />
